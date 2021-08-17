@@ -1,0 +1,28 @@
+Package: hot.deck
+Title: Multiple Hot Deck Imputation
+Version: 1.2
+Authors@R: c(person("Jeff", "Gill", email="jgill@american.edu", role="aut"), 
+	     person("Skyler", "Cranmer", role= "aut"), 
+             person("Natalie", "Jackson", role = "aut"),
+	     person("Andreas", "Murr", role = "aut"),
+             person("Dave", "Armstrong", email = "dave@quantoid.net", role = c("aut", "cre")),
+	     person("Simon", "Heuberger", role= "aut"))
+Author: Jeff Gill [aut],
+  Skyler Cranmer [aut],
+  Natalie Jackson [aut],
+  Andreas Murr [aut],
+  Dave Armstrong [aut, cre],
+  Simon Heuberger [aut]
+Maintainer: Dave Armstrong <dave@quantoid.net>
+Description: Performs multiple hot-deck imputation of categorical and continuous variables in a data frame.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
+Imports: data.table, MASS, mice, tidyr, stats
+Suggests: knitr, mitools, miceadds, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-08-16 16:24:37 UTC; baole
