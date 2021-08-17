@@ -1,0 +1,3 @@
+# hot.deck
+
+Version 1.2 of the R package `hot.deck` that contains all of the functions necessary to perform multiple hot deck imputation on an input data frame with missing observations using either the "best cell" method (default) or the "probabilistic draw" method as described in Cranmer and Gill (2013). This technique is best suited for missingness in discrete variables, though it also works well for continuous missing observations. Version 1.2 adds the possibility to impute data by specifically accounting for unevenly spaced distances between categories in ordinal variables. Version 1.1 available available on CRAN (https://cran.r-project.org/web/packages/hot.deck/index.html). Version 1.2 on CRAN forthcoming
